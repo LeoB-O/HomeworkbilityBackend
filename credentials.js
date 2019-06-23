@@ -10,7 +10,7 @@ module.exports = {
     secret: '123456',
     options: {
       cookie: 'hw',
-      cookies: false,
+      cookies: true,
       cookieOptions: {domain: '', path: ''}
     }
   },
@@ -22,7 +22,7 @@ module.exports = {
   },
   cors: {
     options: {
-      origin: 'http://127.0.0.1:8080',
+      origin: 'http://47.102.144.176',
       credentials: true
     }
   }
