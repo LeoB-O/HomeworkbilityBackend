@@ -20,7 +20,7 @@ module.exports = {
   deploy : {
     production : {
       user : 'root',
-      key  : '/root/.ssh/id_rsa.pub',
+      key  : '~/.ssh/id_rsa.pub',
       host : '47.102.144.176',
       ref  : 'origin/master',
       repo : 'git@github.com:LeoB-O/HomeworkbilityBackend.git',
