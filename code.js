@@ -1,0 +1,7 @@
+module.exports = {
+  SUCCESS: 200,
+  ERROR: 5000,
+  PASSWORD_ERROR: 1001,
+  INVALID_JWT: 1002,
+  EXPIRED_JWT: 1003,
+}
