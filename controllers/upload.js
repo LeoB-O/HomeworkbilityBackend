@@ -19,7 +19,7 @@ module.exports = {
     }
 
     req.files.file.mv(credentials.upload.baseDir+path, err => {
-      res.data.data = {name: `${username}-${name+ext}`};
+      res.data.data = {name: `${username+req.jwt.payload.name}-${name+ext}`};
       res.sendData();
     });
   }
