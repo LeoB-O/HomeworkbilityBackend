@@ -12,7 +12,6 @@ const credentials = {
       options: {
         cookie: 'hw',
         cookies: true,
-        cookieOptions: {domain: '', path: ''}
       }
     },
     upload: {
@@ -41,7 +40,6 @@ const credentials = {
       options: {
         cookie: 'hw',
         cookies: true,
-        cookieOptions: {domain: '', path: ''}
       }
     },
     upload: {
