@@ -1,3 +1,11 @@
+/*
+ * @Description: 
+ * @version: 1.0
+ * @Author: Leo
+ * @Date: 2019-06-22 15:03:11
+ * @LastEditors: Leo
+ * @LastEditTime: 2019-08-08 21:43:19
+ */
 const credentials = {
   production: {
     mongodb: {
@@ -22,7 +30,7 @@ const credentials = {
     },
     cors: {
       options: {
-        origin: 'http://47.102.144.176',
+        origin: 'http://blog.leobob.cn',
         credentials: true
       }
     }
